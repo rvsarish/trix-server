@@ -24,7 +24,7 @@ app.use(cookieParser());
 // Allow requests from your frontend domain
 app.use(
   cors({
-    origin: 'http://localhost:3000',
+    origin: 'https://trix-sarishrv.netlify.app',
     credentials: true,
   })
 );
